@@ -381,8 +381,8 @@ address {
 
 .team-item-icon {
   position: absolute;
-  height: 16px;
-  width: 16px;
+  /* height: 16px;
+  width: 16px; */
   /* fill: transparent;
    stroke: #F4F4FD;
    background-color: #4d5ae5;
@@ -556,8 +556,8 @@ address {
 
 .footer-item-icon {
   position: absolute;
-  height: 24px;
-  width: 24px;
+  /* height: 24px;
+  width: 24px; */
 }
 
 .footer-item-icon-link:hover {
