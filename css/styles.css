@@ -62,6 +62,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -169,6 +171,8 @@ address {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-container {
@@ -254,8 +258,8 @@ address {
 }
 
 .feature-item-icon {
-  width: 64px;
-  height: 64px;
+  /* width: 64px;
+  height: 64px; */
 }
 
 .feature-subtitle {
@@ -520,12 +524,12 @@ address {
 }
 
 .footer-social-title {
-color: #FFF;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.2em;
-margin-bottom: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.2em;
+  margin-bottom: 16px;
 }
 
 .footer-icons-list-item {
@@ -557,5 +561,5 @@ margin-bottom: 16px;
 }
 
 .footer-item-icon-link:hover {
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
