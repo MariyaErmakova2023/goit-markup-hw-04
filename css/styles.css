@@ -459,10 +459,8 @@ address {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-} */
-
-.portfolio-content-wrap {
+letter-spacing: 0.02em;
+*/ .portfolio-content-wrap {
   position: relative;
   overflow: hidden;
 }
