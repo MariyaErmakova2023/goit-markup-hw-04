@@ -112,13 +112,13 @@ img {
   /*padding: 24px 0;*/
 }
 .nav-item:first-child {
-  position: relative;
   color: #404bbf;
 }
 
 .nav-item .nav-link {
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
