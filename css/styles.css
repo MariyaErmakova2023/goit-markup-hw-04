@@ -455,23 +455,29 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.portfolio-item-cover-text {
+/* .portfolio-item-cover-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-}
+} */
 
 .portfolio-content-wrap {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-item-cover-wrap {
+/* .portfolio-item-cover-wrap { */
+.portfolio-item-cover-text {
   position: absolute;
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
   background: #4d5ae5;
   top: 0;
   height: 100%;
+  width: 100%;
   padding-top: 40px;
   padding-left: 32px;
   padding-right: 32px;
