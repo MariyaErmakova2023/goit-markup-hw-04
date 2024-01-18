@@ -149,6 +149,9 @@ address {
 .header-adress-list {
   display: flex;
   gap: 40px;
+}
+
+.header-adress-link {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -455,12 +458,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* .portfolio-item-cover-text {
-  color: #f4f4fd;
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;
-*/ .portfolio-content-wrap {
+
+.portfolio-content-wrap {
   position: relative;
   overflow: hidden;
 }
